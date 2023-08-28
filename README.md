@@ -107,7 +107,9 @@
 ## Contact
 #### Call me by Phone:
 <div id="badges">
-<img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=t-mobile&logoColor=magenta" alt="Phone"/>
+<a href=tel:"+491714724389">  
+  <img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=t-mobile&logoColor=magenta" alt="Phone"/>
+</a> 
 <a href="https://call.whatsapp.com/voice/q4SEefogSwBZMZUWxdgx1n">
   <img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=whatsapp&logoColor=green" alt="Phone"/>
 </a>
