@@ -17,8 +17,8 @@
 
 ***Доработанные требования:***
 
-- ***[Teachers](https://www.notion.so/Skyeng-Teacher-2f95e22db472431db54564a8f8571664?pvs=21)***
-- ***[Student](https://www.notion.so/Skyeng-Student-c95e25782d09469b9bdef8cb8034cd32?pvs=21)***
+- ***[Teachers](/Project%203/Skyeng%20Student.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)***
+- ***[Student](/Project%203/Skyeng%20Teacher.md#%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F)***
 
 ## User-storys
 
@@ -95,11 +95,11 @@
 
 ## Тестовая документация
 
-Для тестирования приложений выбор был остановлен на чек-листах, что в значительной мере сокращает сроки проверок. На основе составленных декомпозиций приложений **[Teacher](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#%D0%94%D0%B5%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-ClassRoom)** и **[Student](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#%D0%94%D0%B5%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F-ClassRoom)**, составленна тестовая документация:
+Для тестирования приложений выбор был остановлен на чек-листах, что в значительной мере сокращает сроки проверок. На основе составленных декомпозиций приложений **[Teacher](/Project%203/images/teacherD.png)** и **[Student](/Project%203/images/studentD.png)**, составленна тестовая документация:
 
-- [Чек-лист для веб-приложения](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Functional-check-list)
-- [Чек-лист для мобильного приложения](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#Functional-check-list)
-- [Коллекция Postman](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Functional-check-list)
+- [Чек-лист для веб-приложения](/Project%203/pdf/Check_Teacher.pdf)
+- [Чек-лист для мобильного приложения](/Project%203/pdf/Check_Student.pdf)
+- [Коллекция Postman](/Project%203/files/vimbox.postman_collection.json)
 
 # Тестовая среда
 
@@ -134,15 +134,17 @@
 
 **WEB App Teacher**
 
-[https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Test-Run](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Test-Run)
+| [Teacher#Test-Chrome](/Project%203/pdf/Chrome_Teacher.pdf) |  [Teacher#Test-Yandex](/Project%203/pdf/Yandex_Teacher.pdf) | 
 
-[https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Bag-Report](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30310404/Skyeng+Teacher#Bag-Report)
+![Teacher#Bag-Report](/Project%203/images/bag.png)
+[Bag-Report](/Project%203/pdf/JiraW.pdf)
 
 **Mobile App Student**
 
-[https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#Test-Run](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#Test-Run)
+[Student#Test-Run](/Project%203/pdf/Run_Student.pdf)
 
-[https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#Bag-Report](https://vladicom.atlassian.net/wiki/spaces/DIP/pages/30408705/Skyeng+Student#Bag-Report)
+![Student#Bag-Report](/Project%203/images/bagM.png)
+[Bag-Report](/Project%203/pdf/JiraM.pdf)
 
 ---
 
@@ -181,10 +183,12 @@
 
 Непредвиденные сбои в мобильном приложении привели к приостановке тестирования, чтобы выявить и устранить проблемы, что сказалось на графике и увеличило затраты времени.
 
-| ![metrics.png](Diplom%202d754e2d5c2c440bbde0477caa221981/metrics.png) | ![Diplom.png](Diplom%202d754e2d5c2c440bbde0477caa221981/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82.png) |
+| Diagram | Deadlines |
+| --- | --- |
+| ![Working Diagram](/Project%203/images/metrics.png) | ![Deadlines](/Project%203/images/deadlines.png) |
 
 # Sites
 
-[Skyeng Teacher](https://www.notion.so/Skyeng-Teacher-2f95e22db472431db54564a8f8571664?pvs=21)
+[Skyeng Teacher](/Project%203/Skyeng%20Teacher.md)
 
-[Skyeng Student](https://www.notion.so/Skyeng-Student-c95e25782d09469b9bdef8cb8034cd32?pvs=21)
+[Skyeng Student](/Project%203/Skyeng%20student.md)
