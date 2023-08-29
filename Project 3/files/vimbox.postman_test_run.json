@@ -1,0 +1,163 @@
+{
+	"id": "cc904734-b186-4bca-b8e1-a7e6cf06f7a5",
+	"name": "vimbox",
+	"timestamp": "2023-08-09T08:13:22.965Z",
+	"collection_id": "25090916-93b5a53b-2f2c-4fa4-b72b-2c9e9f394e91",
+	"folder_id": 0,
+	"environment_id": "25090916-558de988-f51c-450f-98b7-eec9dea4a44c",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-09T08:13:16.501Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "ebd8141c-7f1f-412f-9967-d46d7289b0ea",
+			"name": "Showcase_авторизован",
+			"url": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+			"time": 4773,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Ответ сервера менее 3 сек.": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ответ сервера менее 3 сек.": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4773
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Ответ сервера менее 3 сек.": false
+				}
+			]
+		},
+		{
+			"id": "24a97d4e-d168-4493-86ba-16fd4af0e1d6",
+			"name": "Showcase_не_авторизован",
+			"url": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase",
+			"time": 96,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Unauthorized-Вы не авторизованы!": true,
+				"Не найден токен": true
+			},
+			"testPassFailCounts": {
+				"Unauthorized-Вы не авторизованы!": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Не найден токен": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Unauthorized-Вы не авторизованы!": true,
+					"Не найден токен": true
+				}
+			]
+		},
+		{
+			"id": "50708c8f-1af7-46e9-9b53-78df8632137d",
+			"name": "Доступные студенты",
+			"url": "https://rooms-vimbox.skyeng.ru/users/api/v1/teachers/14720069/students",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is < 3 sec.": true,
+				"Skypro5": false,
+				"Skypro7": true,
+				"Skypro6": false,
+				"Тестировщик": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is < 3 sec.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Skypro5": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Skypro7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Skypro6": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Тестировщик": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is < 3 sec.": true,
+					"Skypro5": false,
+					"Skypro7": true,
+					"Skypro6": false,
+					"Тестировщик": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5171,
+	"collection": {
+		"requests": [
+			{
+				"id": "ebd8141c-7f1f-412f-9967-d46d7289b0ea",
+				"method": "GET"
+			},
+			{
+				"id": "24a97d4e-d168-4493-86ba-16fd4af0e1d6",
+				"method": "GET"
+			},
+			{
+				"id": "50708c8f-1af7-46e9-9b53-78df8632137d",
+				"method": "GET"
+			}
+		]
+	}
+}

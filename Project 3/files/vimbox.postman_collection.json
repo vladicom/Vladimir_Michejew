@@ -1,0 +1,259 @@
+{
+	"info": {
+		"_postman_id": "93b5a53b-2f2c-4fa4-b72b-2c9e9f394e91",
+		"name": "vimbox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25090916"
+	},
+	"item": [
+		{
+			"name": "Showcase_авторизован",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is application/json\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});\r",
+							"pm.test(\"Ответ сервера менее 3 сек.\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{url}}{{api}}{{comp}}/showcase",
+					"host": [
+						"{{url}}{{api}}{{comp}}"
+					],
+					"path": [
+						"showcase"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Showcase_не_авторизован",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Unauthorized-Вы не авторизованы!\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"pm.test(\"Не найден токен\", function () {\r",
+							"    pm.response.to.have.body({\"code\": 401,\"message\": \"JWT Token not found\"});\r",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}{{api}}{{comp}}/showcase",
+					"host": [
+						"{{url}}{{api}}{{comp}}"
+					],
+					"path": [
+						"showcase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доступные студенты",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is < 3 sec.\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Skypro5\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(15943413);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Skypro7\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(15943491);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Skypro6\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(15943460);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Тестировщик\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(16805413);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "rooms-vimbox.skyeng.ru"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "ru"
+					},
+					{
+						"key": "cookie",
+						"value": "{{cookie}}"
+					},
+					{
+						"key": "origin",
+						"value": "https://vimbox.skyeng.ru"
+					},
+					{
+						"key": "referer",
+						"value": "https://vimbox.skyeng.ru/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rooms-vimbox.skyeng.ru/users/api/v1/teachers/14720069/students",
+					"protocol": "https",
+					"host": [
+						"rooms-vimbox",
+						"skyeng",
+						"ru"
+					],
+					"path": [
+						"users",
+						"api",
+						"v1",
+						"teachers",
+						"14720069",
+						"students"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://api-vimbox.skyeng.ru"
+		},
+		{
+			"key": "api",
+			"value": "/api/v1"
+		},
+		{
+			"key": "comp",
+			"value": "/compilations"
+		},
+		{
+			"key": "Cookie",
+			"value": ""
+		}
+	]
+}
