@@ -36,13 +36,12 @@
 
 ## **Декомпозиция ClassRoom**
 
-![Decomposition](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/image-20230730-151110.png)
+![Decomposition](/Project%203/images/teacherD.png)
 
 ## Functional check-list
 
-[Postman_Collection](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_collection.json)
-
-[Check_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/%D0%A7%D0%B5%D0%BA_Teacher.pdf)
+> [Postman_Collection](/Project%203/files/vimbox.postman_collection.json)  
+> [Check_Teacher](/Project%203/pdf/Check_Teacher.pdf)  
 
 ---
 
@@ -52,11 +51,11 @@
 
 | **Google Chrome** | **Yandex.Browser** | **Postman** |
 | --- | --- | --- |
-| *Version 115.0.5790.111(64-Bit)* <br>[Chrome_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Chrome_Teacher.pdf) | *Version 23.7.1.1140 (64-bit)* <br>[Yandex_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Yandex_Teacher.pdf) | *Version July 2023 (v10.16)* <br>[Postman_test_run](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_test_run.json) |
+| *Version 115.0.5790.111(64-Bit)* <br>[Chrome_Teacher.pdf](/Project%203/pdf/Chrome_Teacher.pdf) | *Version 23.7.1.1140 (64-bit)* <br>[Yandex_Teacher.pdf](/Project%203/pdf/Yandex_Teacher.pdf) | *Version July 2023 (v10.16)* <br>[Postman_test_run](/Project%203/files/vimbox.postman_test_run.json) |
 
-![Postman](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Screenshot_2023-08-08_112829.png)
+![Postman](/Project%203/images/postman.png)
 
 ## Bag-Report
 
-![bag-report](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/bag.png)
-[Bag-report](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/bag.png)
+![bag-report](/Project%203/images/bag.png)  
+[Bag-report PDF](/Project%203/pdf/JiraW.pdf)
