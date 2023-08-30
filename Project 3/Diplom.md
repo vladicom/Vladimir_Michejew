@@ -103,7 +103,7 @@
 
 # Тестовая среда
 
-| Веб-приложение | Yandex.Browser Vers.  Google Chrome Vers. |
+| Веб-приложение | Yandex.Browser  Google Chrome |
 | --- | --- |
 | Мобильное приложение | One Plus 8 Pro Oxygen 13.1 Android 13 |
 | API | Postman Desktop App |
@@ -116,11 +116,11 @@
 
 | Порядок | Задача | Метод | Время исполнения | Ссылки на дополнительную информацию |
 | --- | --- | --- | --- | --- |
-| User-Story | Анализ и проработка требований; <br>Составление пользовательских сценариев | Анализ документации | 27.07.2023 - 30.07.2023 | Skyeng Teacher () <br>Skyeng Student () |
+| User-Story | Анализ и проработка требований; <br>Составление пользовательских сценариев | Анализ документации | 27.07.2023 - 30.07.2023 | [Skyeng Teacher](/Project%203/Skyeng%20Teacher.md#user-story) <br>[Skyeng Student](/Project%203/Skyeng%20Student.md#user-story) |
 | Исследовательское тестирование | Исследовательское тестирование функционала веб-комнаты в мобильном и веб-приложениях | Исследование функциональных возможностей и логики работы приложений | 27.07.2023 - 02.08.2023 |  |
-| Тестовая документация | Составление чек-листов для тестирования мобильного и веб-приложений | Чек-листы функциональных проверок приложений и элементов | 01.08.2023 - 05.08.2023 | Skyeng+Teacher#Functional-check-list <br>Skyeng+Student#Functional-check-list |
-| Тестирование функционала | Тестирование и анализ работы приложений | Тестирование <br>Анализ и баг-репорт | 06.08.2023 - 07.08.2023 | Skyeng+Teacher <br>Skyeng+Student |
-| Тестирование API | Тестирование back-end раздела “Видеопрактика” | Создание коллекции итестирование | 06.08.2023 - 07.08.2023 | Skyeng+Teacher#Functional-check-list <br>Skyeng+Teacher |
+| Тестовая документация | Составление чек-листов для тестирования мобильного и веб-приложений | Чек-листы функциональных проверок приложений и элементов | 01.08.2023 - 05.08.2023 | [Teacher#Functional-check-list](/Project%203/Skyeng%20Teacher.md#functional-check-list) <br>[Student#Functional-check-list](/Project%203/Skyeng%20Student.md#functional-check-list) |
+| Тестирование функционала | Тестирование и анализ работы приложений | Тестирование <br>Анализ и баг-репорт | 06.08.2023 - 07.08.2023 | [Teacher](/Project%203/Skyeng%20Teacher.md#test-run) <br>[Student](/Project%203/Skyeng%20Student.md#test-run) |
+| Тестирование API | Тестирование back-end раздела “Видеопрактика” | Создание коллекции и тестирование | 06.08.2023 - 07.08.2023 | [API_Teacher](/Project%203/files/vimbox.postman_test_run.json) |
 
 ---
 
@@ -134,17 +134,17 @@
 
 **WEB App Teacher**
 
-| [Teacher#Test-Chrome](/Project%203/pdf/Chrome_Teacher.pdf) |  [Teacher#Test-Yandex](/Project%203/pdf/Yandex_Teacher.pdf) | 
+| [Teacher#Chrome PDF](/Project%203/pdf/Chrome_Teacher.pdf) |  [Teacher#Yandex PDF](/Project%203/pdf/Yandex_Teacher.pdf) | 
 
 ![Teacher#Bag-Report](/Project%203/images/bag.png)
-[Bag-Report](/Project%203/pdf/JiraW.pdf)
+[Bag-Report PDF](/Project%203/pdf/JiraW.pdf)
 
 **Mobile App Student**
 
-[Student#Test-Run](/Project%203/pdf/Run_Student.pdf)
+[Student#Test-Run PDF](/Project%203/pdf/Run_Student.pdf)
 
 ![Student#Bag-Report](/Project%203/images/bagM.png)
-[Bag-Report](/Project%203/pdf/JiraM.pdf)
+[Bag-Report PDF](/Project%203/pdf/JiraM.pdf)
 
 ---
 
