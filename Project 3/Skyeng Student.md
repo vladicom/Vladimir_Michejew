@@ -18,8 +18,7 @@
 | Ученик может случайно выйти из комнаты в любой момент. |  |
 | Ученик может читать заметки преподователя, доступные ученику. | Ученик хочет иметь возможность читать заметки преподователя, доступные ученику. |
 
-<aside>
-ℹ️
+---
 
 ## User-Story
 
@@ -31,22 +30,28 @@
 4. смотреть разные видео: из разных разделов,
 5. добавлять (удалять) слова в словарь для изучения,
 6. читать заметки преподователя, доступные ученику.
-</aside>
+
+---
 
 ## **Декомпозиция ClassRoom**
 
-![Skyeng%20Student%20c95e25782d09469b9bdef8cb8034cd32/image-20230805-161844.png](Skyeng%20Student%20c95e25782d09469b9bdef8cb8034cd32/image-20230805-161844.png)
+![Decomposition](/Project%203/images/studentD.png)
+
+---
 
 ## Functional check-list
 
-[Чек_Student.pdf](Skyeng%20Student%20c95e25782d09469b9bdef8cb8034cd32/%D0%A7%D0%B5%D0%BA_Student.pdf)
+> [Check_Student.pdf](/Project%203/pdf/Check_Student.pdf)
+
+---
 
 # Результаты тестирования
 
 ## Test-Run
 
-[Run_Student.pdf](Skyeng%20Student%20c95e25782d09469b9bdef8cb8034cd32/Run_Student.pdf)
+> [Run_Student.pdf](/Project%203/pdf/Run_Student.pdf)
 
 ## Bag-Report
 
-![bagM.png](Skyeng%20Student%20c95e25782d09469b9bdef8cb8034cd32/bagM.png)
+![bagM.png](/Project%203/images/bagM.png)  
+[Bag-Report PDF](/Project%203/pdf/JiraM.pdf)
