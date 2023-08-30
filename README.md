@@ -101,17 +101,35 @@
 
 ---
 
+## [Проект 3](/Project%202/Diplom.md)
+### Тестирование функционала раздела “Видеопрактика” в Веб-приложении Skyeng Teacher и мобильном приложении Skyeng Student.
+> Описание: В мобильном и веб приложениях добавлена новая функциональность - раздел «Видеопрактика». Необходимо протестировать возможность проведения live-видеоурока в приложениях на основе функционального чек-листа. Для тестирования были составлены Чек-листы для функционального тестирования виртуальной комнаты (ClassRoom). По завершении тестирования был составлен отчёт к проекту.
+#### Цель проекта: протестировать функционал ClassRoom приложения преподавателя и мобильного приложения студента на основе функционального чек-листа.
+**Какие виды тестирования были проведены**:
+• Исследовательское тестирование ClassRoom
+• Тестирование совместимости веб и мобильного приложений
+• Функциональное тестирование
+• API-тестирование бэкэнда веб-приложения преподавателя  
 
+**Какие инструменты были применены**:
+• **Yandex-Browser** и **Google Chrome** для проведения кросс-браузерного тестирования.
+• **Postman** для запросов контента на сервере.
+• **Sitechko (Checkvist)** для оформления функциональных проверок.
+• **Confluence** для ведения тест-плана и отчёта.
+• **Jira** для фиксирования баг-репортов.
+  
+
+> ### Подробная информация о проекте: [**Проект 3**](/Project%202/Diplom.md)
 ---
 
 ## Contact
 #### Call me by Phone:
-<div id="badges">
-<a href="tel:+491714724389">  
-  <img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=t-mobile&logoColor=magenta" alt="Phone"/>
-</a> 
-<a href="https://call.whatsapp.com/voice/q4SEefogSwBZMZUWxdgx1n">
-  <img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=whatsapp&logoColor=green" alt="Phone"/>
-</a>
-<img src="https://img.shields.io/badge/+49 171 4724 389-grey?style=for-the-badge&logo=telegram&logoColor=blue" alt="Phone"/>
-</div>
+**+(49) 171 4724 389**   
+<br><a href="https://call.whatsapp.com/voice/q4SEefogSwBZMZUWxdgx1n">**WhatsApp_Phone**</a>
+#### E-Mail
+vladimir.michejew@gmail.com
+#### Social
+<a href="https://t.me/vladimir_michejew">Telegram</a>
+<br><a href="www.linkedin.com/in/vladimir-michejew-93b687274">Linkedin</a>
+<br><a href="https://www.xing.com/profile/Vladimir_Michejew/cv">XING</a>
+
