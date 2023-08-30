@@ -18,8 +18,7 @@
 | Препадаватель может писать заметки, как личные, так и доступные ученику. | Преподователь хочет иметь возможность вести заметки в ходе урока, как личные, так и доступные ученику. |
 | Препадаватель может отправить домашку, а может не отправлять. | Преподователь хочет иметь возможность отправлять материалы урока в домашнем задании. |
 
-<aside>
-🗒️
+---
 
 ## **User Story**
 
@@ -32,42 +31,32 @@
 5. добавлять (удалять) слова в словарь для изучения,
 6. вести заметки в ходе урока, как личные, так и доступные ученику,
 7. отправлять материалы урока в домашнем задании.
-</aside>
+
+---
 
 ## **Декомпозиция ClassRoom**
 
-![Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/image-20230730-151110.png](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/image-20230730-151110.png)
+![Decomposition](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/image-20230730-151110.png)
 
 ## Functional check-list
 
-[vimbox.postman_collection.json](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_collection.json)
+[Postman_Collection](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_collection.json)
 
-[Чек_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/%D0%A7%D0%B5%D0%BA_Teacher.pdf)
+[Check_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/%D0%A7%D0%B5%D0%BA_Teacher.pdf)
+
+---
 
 # Результаты тестирования
 
 ## Test-Run
 
-**Google Chrome**
+| **Google Chrome** | **Yandex.Browser** | **Postman** |
+| --- | --- | --- |
+| *Version 115.0.5790.111(64-Bit)* <br>[Chrome_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Chrome_Teacher.pdf) | *Version 23.7.1.1140 (64-bit)* <br>[Yandex_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Yandex_Teacher.pdf) | *Version July 2023 (v10.16)* <br>[Postman_test_run](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_test_run.json) |
 
-*Version 115.0.5790.111(64-Bit)*
-
-[Chrome_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Chrome_Teacher.pdf)
-
-**Yandex.Browser**
-
-*Version 23.7.1.1140 (64-bit)*
-
-[Yandex_Teacher.pdf](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Yandex_Teacher.pdf)
-
-**Postman**
-
-*Version July 2023 (v10.16)*
-
-[vimbox.postman_test_run.json](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/vimbox.postman_test_run.json)
-
-![Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Screenshot_2023-08-08_112829.png](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Screenshot_2023-08-08_112829.png)
+![Postman](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/Screenshot_2023-08-08_112829.png)
 
 ## Bag-Report
 
-![bag.png](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/bag.png)
+![bag-report](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/bag.png)
+[Bag-report](Skyeng%20Teacher%202f95e22db472431db54564a8f8571664/bag.png)
