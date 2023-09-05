@@ -39,21 +39,21 @@
 
 ### Tools and Skills :
 <div id="badges">
-    <img src="https://img.shields.io/badge/Jira-lightgrey?style=for-the-badge&logo=atlassian&logoColor=blue" alt="Jira"/>
-    <img src="https://img.shields.io/badge/Confluence-lightgrey?style=for-the-badge&logo=atlassian&logoColor=blue" alt="Confluence"/>
-    <img src="https://img.shields.io/badge/Postman-lightgrey?style=for-the-badge&logo=postman&logoColor=orange" alt="Postman"/>
-    <img src="https://img.shields.io/badge/Qase.io-lightgrey?style=for-the-badge&logo=qase&logoColor=blue" alt="Qase"/>
-    <img src="https://img.shields.io/badge/SoapUI-lightgrey?style=for-the-badge&logo=soap&logoColor=yellow" alt="SoapUI"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-lightgrey?style=for-the-badge&logo=postgresql&logoColor=blue" alt="SQL"/>
-    <img src="https://img.shields.io/badge/Swagger-lightgrey?style=for-the-badge&logo=swagger&logoColor=orange" alt="Swagger"/>
-    <img src="https://img.shields.io/badge/Android Studio-lightgrey?style=for-the-badge&logo=android&logoColor=green" alt="AndroidSDK"/>
-    <img src="https://img.shields.io/badge/Charles Proxy-lightgrey?style=for-the-badge&logo=charles&logoColor=white" alt="Charles"/>
-    <img src="https://img.shields.io/badge/JMeter-lightgrey?style=for-the-badge&logo=apache jmeter&logoColor=red" alt="JMeter"/>
-    <img src="https://img.shields.io/badge/Git-lightgrey?style=for-the-badge&logo=git&logoColor=red" alt="Git"/>
-    <img src="https://img.shields.io/badge/Miro-lightgrey?style=for-the-badge&logo=miro&logoColor=yellow" alt="Miro"/>
-    <img src="https://img.shields.io/badge/Notion-lightgrey?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/>
-    <img src="https://img.shields.io/badge/DevTools-lightgrey?style=for-the-badge&logo=google chrome&logoColor=white" alt="DevTools"/>
-    <img src="https://img.shields.io/badge/HTML and CSS-lightgrey?style=for-the-badge&logo=html academy&logoColor=blue" alt="HTML"/>
+    <img src="https://img.shields.io/badge/Jira-grey?style=for-the-badge&logo=jira&logoColor=blue" alt="Jira"/>
+    <img src="https://img.shields.io/badge/Confluence-grey?style=for-the-badge&logo=confluence&logoColor=blue" alt="Confluence"/>
+    <img src="https://img.shields.io/badge/Postman-grey?style=for-the-badge&logo=postman&logoColor=orange" alt="Postman"/>
+    <img src="https://img.shields.io/badge/Qase.io-grey?style=for-the-badge&logo=qase&logoColor=blue" alt="Qase"/>
+    <img src="https://img.shields.io/badge/SoapUI-grey?style=for-the-badge&logo=soap&logoColor=yellow" alt="SoapUI"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-grey?style=for-the-badge&logo=postgresql&logoColor=blue" alt="SQL"/>
+    <img src="https://img.shields.io/badge/Swagger-grey?style=for-the-badge&logo=swagger&logoColor=orange" alt="Swagger"/>
+    <img src="https://img.shields.io/badge/Android Studio-grey?style=for-the-badge&logo=android&logoColor=green" alt="AndroidSDK"/>
+    <img src="https://img.shields.io/badge/Charles Proxy-grey?style=for-the-badge&logo=charles&logoColor=white" alt="Charles"/>
+    <img src="https://img.shields.io/badge/JMeter-grey?style=for-the-badge&logo=apache jmeter&logoColor=red" alt="JMeter"/>
+    <img src="https://img.shields.io/badge/Git-grey?style=for-the-badge&logo=git&logoColor=red" alt="Git"/>
+    <img src="https://img.shields.io/badge/Miro-grey?style=for-the-badge&logo=miro&logoColor=yellow" alt="Miro"/>
+    <img src="https://img.shields.io/badge/Notion-grey?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/>
+    <img src="https://img.shields.io/badge/DevTools-grey?style=for-the-badge&logo=google chrome&logoColor=white" alt="DevTools"/>
+    <img src="https://img.shields.io/badge/HTML and CSS-grey?style=for-the-badge&logo=html academy&logoColor=blue" alt="HTML"/>
 </div>
 
 ---
