@@ -54,6 +54,10 @@
     <img src="https://img.shields.io/badge/Notion-grey?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"/>
     <img src="https://img.shields.io/badge/DevTools-grey?style=for-the-badge&logo=google chrome&logoColor=white" alt="DevTools"/>
     <img src="https://img.shields.io/badge/HTML and CSS-grey?style=for-the-badge&logo=html academy&logoColor=blue" alt="HTML"/>
+    <img src="https://img.shields.io/badge/Python-grey?style=for-the-badge&logo=python&logoColor=blue" alt="Python"/>
+    <img src="https://img.shields.io/badge/Selenium-grey?style=for-the-badge&logo=selenium&logoColor=green" alt="Selenium"/>
+    <img src="https://img.shields.io/badge/Pytest-grey?style=for-the-badge&logo=pytest&logoColor=yelow" alt="pytest"/>
+    <img src="https://img.shields.io/badge/Framework-grey?style=for-the-badge&logo=Framework&logoColor=blue" alt="PageObject"/>
 </div>
 
 ---
