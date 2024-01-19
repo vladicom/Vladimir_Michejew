@@ -62,6 +62,37 @@
 
 ---
 
+## [Project 1](/Project%201/Functional_Testing.md)
+
+### Test Automation Python
+
+> Description: Automated UI and API tests for working with boards in the service: https://trello.com/.
+> Automation code needs to be generated Frontend and Backend based on a functional checklist.
+> The following Test Cases were taken as a basis for testing:
+>- create a new board,
+>- delete an existing board
+>- adding a card to the board
+>- card editing,
+>- deleting a card,
+>- move the card to another column.
+ 
+
+#### Project goal: The project should support running auto tests in three modes:
+
+- running only UI tests,
+- running only API tests,
+- Run all tests.
+
+***Which dependencies have been applied:***
+
+- selenium,
+- requests,
+- pytest,
+- allure
+ 
+> ### Project Details: [**Project 1**](/Project%201/Functional_Testing.md)
+---
+
 ## [Проект 1](/Project%201/Functional_Testing.md) 
 ### Расписание личного кабинета для учителей Skyeng
 > Описание: В расписание учителей добавлена новая функциональность - личные события. 
