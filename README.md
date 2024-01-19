@@ -62,7 +62,7 @@
 
 ---
 
-## [Project 1](/Project%201/Functional_Testing.md)
+## [Project Test-Automation](https://github.com/vladicom/ui_api_template)
 
 ### Test Automation Python
 
@@ -90,7 +90,7 @@
 - pytest,
 - allure
  
-> ### Project Details: [**Project 1**](/Project%201/Functional_Testing.md)
+> ### Project Details: [**UI_API Template**](https://github.com/vladicom/ui_api_template)
 ---
 
 ## [Проект 1](/Project%201/Functional_Testing.md) 
